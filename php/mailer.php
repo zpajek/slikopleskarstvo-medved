@@ -1,15 +1,20 @@
 <?php
 if(isset($_POST["mail"])){
 	$mail = $_POST["mail"];
-	sendMail($mail);
+	send_mail($mail);
 }else{
 	echo "Invalid request";
 	die();
 }
 
 
+function send_mail($mail){
+	echo $mail;
+}
+/*
 function mail($input){
 	//parse and validate data
+
 	$name = test_input($input["name"]);
 	if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
 	  $nameErr = "Only letters and white space allowed"; 
@@ -37,3 +42,4 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
+*/
