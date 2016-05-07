@@ -1,0 +1,17 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300&subset=latin,latin-ext);
+p{
+	font-family:"Montserrat",sans serif;
+	weight:light;
+}
+
+@font-face {
+font-family: Montserrat;
+src: url("../fonts/Montserrat-Regular.otf") format("opentype");
+}
+
+@font-face {
+font-family: Montserrat;
+font-weight: bold;
+src: url("../fonts/Montserrat-Bold.otf") format("opentype");
+}

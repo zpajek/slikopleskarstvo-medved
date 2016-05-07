@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Autorja: Vid in Žan Pajek, vse pravice pridržane. -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Slikopleskartvo medved | Tehnike </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+     <!-- Poto swipe pluggin -->
+
+     <!-- Core CSS file -->
+    <link rel="stylesheet" href="css/photoswipe.css"> 
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons sprite, 
+         - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="css/default-skin.css"> 
+
+    <!-- Core JS file -->
+    <script src="js/photoswipe.min.js"></script> 
+
+    <!-- UI JS file -->
+    <script src="js/photoswipe-ui-default.min.js"></script> 
+
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+   <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="favicon/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="favicon/manifest.json">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="Slikopleskarstvo medved">
+<meta name="application-name" content="Slikopleskarstvo medved">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-TileImage" content="mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top>"
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                <i class="glyphicon glyphicon-chevron-up"></i><span class="light">Na vrh</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Kontakt</a>
+                    </li>
+                    <li>
+                         <a class="page-scroll" href="index.html">
+                         <i class="glyphicon glyphicon-home"></i><span class="light">Domov</span>
+                       </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- SLIDER SECTION -->
+    <section class="slider_section">
+        <div class="slider-container">
+          <div class="slider-control left inactive"></div>
+          <div class="slider-control right"></div>
+          <ul class="slider-pagi"></ul>
+          <div class="slider">
+            <div class="slide slide-0 active">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text tehnika-text">
+                  <h2 class="slide__text-heading">Antika</h2>
+                  <ul class="slide__text-desc">
+                    <li>Daje učinek grobega, rustikalnega.</li>
+                    <li>Tehnika primerna tudi za grobe porvšine.</li>
+                    <li>Ustvari videz domačnosti.</li>
+                    <li>Odločno prikrije prašne usedline.</li>
+                    <li>Primerna za zunanje in notranje stene.</li>
+                  </ul>
+                  <a class="slide__text-link" onclick="generatePhotoSwipe('antika')">Galerija</a>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-1 ">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text tehnika-text">
+                  <h2 class="slide__text-heading">Dekor</h2>
+                  <ul class="slide__text-desc">
+                    <li>Primerna za zaščito pogosto uporabljenih prostorov.</li>
+                    <li>Tehnika odlično poživi stene z pralnimi barvami.</li>
+                    <li>Tehnika dobro soupada z različnimi šablonami in vzorci.</li>
+                  </ul>
+                  <a class="slide__text-link" onclick="generatePhotoSwipe('dekor')">Galerija</a>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-2">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text tehnika-text">
+                  <h2 class="slide__text-heading">Dekorativni kit</h2>
+                  <ul class="slide__text-desc">
+                    <li>Rahli vzorci.</li>
+                    <li>Tehnika primerna za poslovne prostore.</li>
+                  </ul>
+                  <a class="slide__text-link" onclick="generatePhotoSwipe('dekorativni_kit')">Galerija</a>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-3">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text tehnika-text">
+                  <h2 class="slide__text-heading">Jeans</h2>
+                  <ul class="slide__text-desc">
+                    <li>Igriv izgled površine.</li>
+                    <li>Satenast efekt, ki lomi svetlobo.</li>
+                    <li>Tehnika je visoko pralna.</li>
+                    <li>Modern ter pomirjujoč izgled.</li>
+                  </ul>
+                  <a class="slide__text-link" onclick="generatePhotoSwipe('jeans')">Galerija</a>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide-4 ">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text tehnika-text">
+                  <h2 class="slide__text-heading">Reljefna tehnika</h2>
+                  <ul class="slide__text-desc">
+                    <li>Podobna grobi reljefni tehniki z plitkejšim ter rahlejšim efektom.</li>
+                    <li>Za razliko od grobe reljefne tehnike se uporablja za večje površine.</li>
+                  </ul>
+                  <a class="slide__text-link" onclick="generatePhotoSwipe('reliefna_tehnika')">Galerija</a>
+                </div>
+              </div>
+            </div>
+
+             <div class="slide slide-5 ">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text tehnika-text">
+                  <h2 class="slide__text-heading">Groba reljefna tehnika</h2>
+                  <ul class="slide__text-desc">
+                    <li>Globlji vzorci narejeni z vlečenim kitom.</li>
+                    <li>Bolj upadljiva kot dekorativni kit.</li>
+                  </ul>
+                  <a class="slide__text-link" onclick="generatePhotoSwipe('groba_reliefna_tehnika')">Galerija</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide slide-6 ">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text tehnika-text">
+                  <h2 class="slide__text-heading">Spužva</h2>
+                  <ul class="slide__text-desc">
+                    <li>Izmenjujeta se sijoča in nesijoča barva.</li>
+                    <li>Unikaten, naključen vzorec.</li>
+                    <li>Zelo vpadljiva pod svetlobo.</li>
+                  </ul>
+                  <a class="slide__text-link" onclick="generatePhotoSwipe('spuzva')">Galerija</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide slide-7 ">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text tehnika-text">
+                  <h2 class="slide__text-heading">Vertikalni detajli</h2>
+                  <ul class="slide__text-desc">
+                    <li>Nežen in edinstven podolgovat efekt z rahlo teksturo.</li>
+                    <li>Primeren za bolj žive barve.</li>
+                    <li>Lepo poživi stopnišča, vetrolove, ter dele prostorov, ki so drugače dolgočasni.</li>
+                  </ul>
+                  <a class="slide__text-link" onclick="generatePhotoSwipe('vertikalni_detajli')">Galerija</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="slide slide-8 ">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text tehnika-text">
+                  <h2 class="slide__text-heading">Omet</h2>
+                  <ul class="slide__text-desc">
+                    <li>Primeren tako za zunanje, kot notranje površine.</li>
+                    <li>Tehnika dobi zanimiv efekt v kombinaciji z barvo.</li>
+                  </ul>
+                  <a class="slide__text-link" onclick="generatePhotoSwipe('omet')">Galerija</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide slide-9 ">
+              <div class="slide__bg"></div>
+              <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text tehnika-text">
+                  <h2 class="slide__text-heading">Perla</h2>
+                  <ul class="slide__text-desc">
+                    <li>Visoko sijoča barva.</li>
+                    <li>Videz enakomirne strukture z presevanjem finih bleščic, ki ustvarijo prelivajoč biserni finiš.</li>
+                    <li>Lepo poudari različne umetnine, slike, kipe ipd...</li>
+                  </ul>
+                  <a class="slide__text-link" onclick="generatePhotoSwipe('perla')">Galerija</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <!-- PRALEN BARBE - TODO
+     <section id="Barve" class=" text-center">
+        <div class="barve-section">
+            <div class="container">
+            <div class="row barve">
+                <div class="col-lg-12 ">
+                <h1>Pralne barve</h1>
+                 <div class="barve-text row" > 
+                 <p> so ultra sexy se dajo prati.</p>
+                  </div>
+                </div>
+
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </section>
+     -->
+
+    <!-- Footer -->
+    <footer class="footer-tehnike" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <address>
+                        Branko Medved s.p <br>
+                        <a href="tel: 041 685 083
+                        ">041 685 083
+                        </a><br>
+                        Dedni Dol 16a, <br>
+                        1294 Višnja Gora
+
+
+                    </address>
+                </div>
+                <div class="col-lg-6">
+                  <form class="form-horizontal" id="contact_form">
+                    <fieldset>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-2 control-label" for="mailer_name">Ime</label>  
+                      <div class="col-md-6">
+                      <input id="mailer_name" name="mailer_name" type="text" placeholder="Janez Novak" class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-2 control-label" for="mailer_mailto">e-naslov</label>  
+                      <div class="col-md-6">
+                      <input id="mailer_mailto" name="mailer_mailto" type="text" placeholder="janez@gmail.com" class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+
+                    <!-- Textarea -->
+                    <div class="form-group">
+                      <label class="col-md-2 control-label" for="mailer_message">Sporočilo</label>
+                      <div class="col-md-10">                     
+                        <textarea class="form-control" id="mailer_message" name="mailer_message" rows="5"></textarea>
+                      </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="mailer_send"></label>
+                      <div class="col-md-4">
+                        <button id="mailer_send" name="mailer_send" class="btn btn-primary">Pošlji</button>
+                      </div>
+                    </div>
+
+                    </fieldset>
+                    </form>
+                </div>
+                <div class="col-lg-4 ">
+            <p>Avtorja: Vid in Žan Pajek Arambašić <time datetime="2016-05">&#169;2016</time> </p>
+            <p>Vse slike so last podjetja Slikopleskarstvo Medved. Zajete v prostorih trgovina Mavrica, Ljubljana - Rudnik, so zgolj ilustrativne narave.</p>
+        <!--     manjka:-sitemap
+                    -kontakt info
+                    -kokie warning
+                    -disclamer(slike) -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main.js"></script>
+
+     <!-- Page JavaScript -->
+    <script src="js/tehnike.js"></script>
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe. 
+             It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides. 
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div> 
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

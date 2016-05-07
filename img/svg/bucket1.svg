@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <style>
+    .st0{fill:#F9F4AD;} .st1{fill:none;stroke:#3B2415;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st2{fill:none;stroke:#3B2415;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st3{fill:none;stroke:#3B2415;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st4{fill:#3B2415;} .st5{fill:none;stroke:#3B2415;stroke-linecap:round;stroke-miterlimit:10;} .st6{fill:none;stroke:#3B2415;stroke-width:2;stroke-miterlimit:10;} .st7{fill:none;stroke:#3B2415;stroke-miterlimit:10;}
+  </style>
+  <path id="Layer_2" d="M83.2 37.6h.2c.8 0 1.5-.6 1.5-1.4 0-.8-.7-1.4-1.5-1.4H36.6c-.8 0-1.5.6-1.5 1.4s.7 1.4 1.5 1.4h.3v47.7h46.3V37.6zm-2.3 45.5H39.2V45.4c.7.3 1.5.6 2.4.8v14.9c0 .6.6 1.2 1.3 1.2.7 0 1.3-.5 1.3-1.2V46.2c.2-.8 0-2.6 2.4-1.2 4.3 2.4 2.8-3 3.3-2.1v12.5c0 .6.6 1.2 1.3 1.2.7 0 1.3-.5 1.3-1.2V41.9c-.4-.9 1.1-.7 2.7-.8 2.1-.2 7.9-4.2 7.9-4.2H81l-.1 46.2z" class="st4"/>
+</svg>

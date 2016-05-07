@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <style>
+    .st0{fill:#F9F4AD;} .st1{fill:none;stroke:#3B2415;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st2{fill:none;stroke:#3B2415;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st3{fill:none;stroke:#3B2415;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st4{fill:#3B2415;} .st5{fill:none;stroke:#3B2415;stroke-linecap:round;stroke-miterlimit:10;} .st6{fill:none;stroke:#3B2415;stroke-width:2;stroke-miterlimit:10;} .st7{fill:none;stroke:#3B2415;stroke-miterlimit:10;}
+  </style>
+  <g id="Layer_2">
+    <path d="M70.3 32.8H49.1S46 92.1 46 92.6v5.2c0 .5.4.9.9.9h26.2c.5 0 .9-.4.9-.9v-5.2c0-.5-3.7-59.8-3.7-59.8zM52 21.3h15.9v6.2H52zm3.3 6.2h9.5v5.3h-9.5z" class="st1"/>
+    <path d="M46.8 84.3h10.1m-10.4 4.1h17.6m-3.4-4h11.9m-6.5-3.9h6.7M55.1 53.3h10.3M58.1 49h13.2M48.6 92v6.2m2.5-6.2v6.2m2.5-6.2v6.2m2.5-6.2v6.2m2.6-6.2v6.2m2.5-6.2v6.2m2.5-6.2v6.2m2.5-6.2v6.2m2.6-6.1v6.2m2.5-6.3v6.2M54.7 21.3v6.2m2.6-6.2v6.2m2.7-6.2v6.2m2.7-6.2v6.2m2.7-6.2v6.2" class="st2"/>
+    <path d="M46.5 91.5h27.2" class="st1"/>
+  </g>
+</svg>

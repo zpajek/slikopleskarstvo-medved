@@ -1,0 +1,155 @@
+.slide:nth-child(1) {
+  left: 0;
+}
+.slide:nth-child(1) .slide__bg {
+  left: 0;
+  background-image: url("../img/Tehnike/antika/Cover.jpg");
+}
+.slide:nth-child(1) .slide__overlay-path {
+  fill: rgba(111, 80, 15, 0.5);
+}
+@media (max-width: 991px) {
+  .slide:nth-child(1) .slide__text {
+    background-color: rgba(111, 80, 15, 0.5);
+  }
+}
+.slide:nth-child(2) {
+  left: 100%;
+}
+.slide:nth-child(2) .slide__bg {
+  left: -50%;
+  background-image: url("../img/Tehnike/dekor/cover.jpg");
+}
+.slide:nth-child(2) .slide__overlay-path {
+  fill: rgba(129,83,77,1);
+}
+@media (max-width: 991px) {
+  .slide:nth-child(2) .slide__text {
+    background-color: rgba(129,83,77,1);
+  }
+}
+.slide:nth-child(3) {
+  left: 200%;
+}
+.slide:nth-child(3) .slide__bg {
+  left: -100%;
+  background-image: url("../img/Tehnike/dekorativni_kit/Cover.jpg");
+}
+.slide:nth-child(3) .slide__overlay-path {
+  fill: rgba(99,119,101,1);
+}
+@media (max-width: 991px) {
+  .slide:nth-child(3) .slide__text {
+    background-color: rgba(99,119,101,1);
+  }
+}
+.slide:nth-child(4) {
+  left: 300%;
+}
+.slide:nth-child(4) .slide__bg {
+  left: -150%;
+  background-image: url("../img/Tehnike/jeans/cover.jpg");
+}
+.slide:nth-child(4) .slide__overlay-path {
+  fill: rgba(116,87,6,0.6);
+}
+@media (max-width: 991px) {
+  .slide:nth-child(4) .slide__text {
+    background-color: rgba(116,87,6,0.6);
+  }
+}
+.slide:nth-child(5) {
+  left: 400%;
+}
+.slide:nth-child(5) .slide__bg {
+  left: -200%;
+  background-image: url("../img/Tehnike/reliefna_tehnika/cover.jpg");
+}
+.slide:nth-child(5) .slide__overlay-path {
+  fill: rgba(74,42,19,0.8);
+}
+@media (max-width: 991px) {
+  .slide:nth-child(5) .slide__text {
+    background-color: rgba(74,42,19,0.8);
+  }
+}
+
+.slide:nth-child(6) {
+  left: 500%;
+}
+.slide:nth-child(6) .slide__bg {
+  left: -250%;
+  background-image: url("../img/Tehnike/groba_reliefna_tehnika/3.jpg");
+}
+.slide:nth-child(6) .slide__overlay-path {
+  fill: rgba(58,84,72,0.5);
+}
+@media (max-width: 991px) {
+  .slide:nth-child(6) .slide__text {
+    background-color: rgba(58,84,72,0.5);
+  }
+}
+
+.slide:nth-child(7) {
+  left: 600%;
+}
+.slide:nth-child(7) .slide__bg {
+  left: -300%;
+  background-image: url("../img/Tehnike/spuzva/cover.jpg");
+}
+.slide:nth-child(7) .slide__overlay-path {
+  fill: rgba(99,33,41,0.5);
+}
+@media (max-width: 991px) {
+  .slide:nth-child(7) .slide__text {
+    background-color: rgba(99,33,41,0.5);
+  }
+}
+
+.slide:nth-child(8) {
+  left: 700%;
+}
+.slide:nth-child(8) .slide__bg {
+  left: -350%;
+  background-image: url("../img/Tehnike/vertikalni_detajli/cover.jpg");
+}
+.slide:nth-child(8) .slide__overlay-path {
+  fill: rgba(108,48,0,0.5);
+}
+@media (max-width: 991px) {
+  .slide:nth-child(8) .slide__text {
+    background-color: rgba(108,48,0,0.5);
+  }
+}
+
+.slide:nth-child(9) {
+  left: 800%;
+}
+.slide:nth-child(9) .slide__bg {
+  left: -400%;
+  background-image: url("../img/Tehnike/omet/cover.jpg");
+}
+.slide:nth-child(9) .slide__overlay-path {
+  fill: rgba(17,24,19,0.6);
+}
+@media (max-width: 991px) {
+  .slide:nth-child(9) .slide__text {
+    background-color: rgba(17,24,19,0.6);
+  }
+}
+
+.slide:nth-child(10) {
+  left: 900%;
+}
+.slide:nth-child(10) .slide__bg {
+  left: -450%;
+  background-image: url("../img/Tehnike/perla/1.jpg");
+}
+.slide:nth-child(10) .slide__overlay-path {
+  fill: rgba(72,69,68,0.5);
+}
+@media (max-width: 991px) {
+  .slide:nth-child(10) .slide__text {
+    background-color: rgba(72,69,68,0.5);
+  }
+}
