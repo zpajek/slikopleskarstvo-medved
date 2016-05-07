@@ -6,12 +6,4 @@ $(document).ready(function() {
 		alert("form submited !  (not realy, JK)");
 
 	});
-}
-function validateInput(type){
-	//Check for XSS
-
-	if(type == "email"){
-		//Regex e-mail address
-		
-	}
-}
+});

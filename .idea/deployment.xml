@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" uploadOnCheckin="d3f95672-6e22-4030-a3ae-6487be49617f">
+    <serverData>
+      <paths name="Slikopleskarstvo-medved.si FTP">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="Slikopleskarstvo-medved.si FTP" />
+  </component>
+</project>
