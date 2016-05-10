@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" uploadOnCheckin="d3f95672-6e22-4030-a3ae-6487be49617f">
+  <component name="PublishConfigData" serverName="slik-med LIVE" promptOnLocalOverwrite="false" uploadOnCheckin="d3f95672-6e22-4030-a3ae-6487be49617f">
     <serverData>
-      <paths name="Slikopleskarstvo-medved.si FTP">
+      <paths name="slik-med LIVE">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

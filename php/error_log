@@ -1,0 +1,11 @@
+[07-May-2016 17:22:14 UTC] PHP Fatal error:  Cannot redeclare mail() in /home/slikopl1/public_html/php/mailer.php on line 11
+[07-May-2016 17:23:07 UTC] PHP Warning:  Illegal string offset 'email' in /home/slikopl1/public_html/php/mailer.php on line 14
+[07-May-2016 17:23:07 UTC] PHP Warning:  Illegal string offset 'message' in /home/slikopl1/public_html/php/mailer.php on line 15
+[07-May-2016 17:27:13 UTC] PHP Warning:  Illegal string offset 'email' in /home/slikopl1/public_html/php/mailer.php on line 15
+[07-May-2016 17:27:13 UTC] PHP Warning:  Illegal string offset 'message' in /home/slikopl1/public_html/php/mailer.php on line 16
+[07-May-2016 17:27:37 UTC] PHP Warning:  Illegal string offset 'email' in /home/slikopl1/public_html/php/mailer.php on line 15
+[07-May-2016 17:27:37 UTC] PHP Warning:  Illegal string offset 'message' in /home/slikopl1/public_html/php/mailer.php on line 16
+[07-May-2016 17:28:23 UTC] PHP Warning:  Illegal string offset 'mailer_mailto' in /home/slikopl1/public_html/php/mailer.php on line 15
+[07-May-2016 17:28:23 UTC] PHP Warning:  Illegal string offset 'mailer_message' in /home/slikopl1/public_html/php/mailer.php on line 16
+[07-May-2016 17:28:39 UTC] PHP Warning:  Illegal string offset 'mailer_mailto' in /home/slikopl1/public_html/php/mailer.php on line 15
+[07-May-2016 17:28:39 UTC] PHP Warning:  Illegal string offset 'mailer_message' in /home/slikopl1/public_html/php/mailer.php on line 16

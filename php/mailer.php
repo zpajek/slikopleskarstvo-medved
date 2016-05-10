@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST["mail"])){
-	$mail = $_POST["mail"];
+	parse_str($_POST["mail"], $mail);
 	send_mail($mail);
 }else{
 	echo "Invalid request";
@@ -8,32 +8,21 @@ if(isset($_POST["mail"])){
 }
 
 
-function send_mail($mail){
-	echo $mail;
-}
-/*
-function mail($input){
+function send_mail($input){
 	//parse and validate data
-
-	$name = test_input($input["name"]);
-	if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
-	  $nameErr = "Only letters and white space allowed"; 
-	}
-	$email = test_input($input["email"]);
-	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-	  $emailErr = "Invalid email format"; 
-	}
-	$message = test_input($input["message"]);
-
-
-
+	$name = test_input($input["mailer_name"]);
+	$email = test_input($input["mailer_mailto"]);
+	$message = test_input($input["mailer_message"]);
 	//prepare and send mail - TODO
 
 	$to      = 'info@slikopleskarstvo-medved.si';
-	$subject = '[SPLETNA STRAN]';
-	$headers = 'From: webmaster@example.com' . "\r\n" .
+	$subject = '[SPLETNA STRAN]Sporocilo od:'.$name;
+	$headers = 'From:' .$email. "\r\n" .
 	    'Reply-To: webmaster@example.com' . "\r\n" .
 	    'X-Mailer: PHP/' . phpversion();
+	echo mail($to, $subject, $message, $headers);
+
+
 
 }
 function test_input($data) {
@@ -42,4 +31,4 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
-*/
+

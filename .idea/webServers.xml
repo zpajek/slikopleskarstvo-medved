@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="43334878-6fe0-462b-9320-9d84cd8ec446" name="slik-med LIVE" url="http://ftp.slikopleskarstvo-medved.si">
+        <fileTransfer host="ftp.slikopleskarstvo-medved.si" port="21" rootFolder="/public_html" password="dfc0dfcbdfc4dfc7dfcfdfcedfc5df9b" username="slikopl1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
