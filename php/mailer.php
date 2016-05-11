@@ -13,11 +13,12 @@ function send_mail($input){
 	$name = test_input($input["mailer_name"]);
 	$email = test_input($input["mailer_mailto"]);
 	$message = test_input($input["mailer_message"]);
-	//prepare and send mail - TODO
+	
 
 	$to      = 'info@slikopleskarstvo-medved.si';
 	$subject = '[SPLETNA STRAN]Sporocilo od:'.$name;
-	$headers = 'From:' .$email. "\r\n" .
+	$headers = 'Content-Type: text/html; charset=UTF-8'."\r\n" .
+		'From:' .$email. "\r\n" .
 	    'Reply-To: webmaster@example.com' . "\r\n" .
 	    'X-Mailer: PHP/' . phpversion();
 	echo mail($to, $subject, $message, $headers);
