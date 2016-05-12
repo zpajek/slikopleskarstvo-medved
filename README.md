@@ -4,15 +4,21 @@ Nothing special
 notes will be writen below by covorkers
 
 
-SEO:
-	-Meta tags
-	-Social tags
-	-Google webmaster
-	-Google analitics
-	-Robotx.txt
+##SEO:
 
-SOCIAL:
-	-Instahipsta knof+Link
-	-Facebook knof+Link
+	- Meta tags
+	- Social tags
+	- Google webmaster
+	- Google analitics
+	- Robotx.txt
+
+##SOCIAL:
+
+	- Instahipsta knof+Link
+	- Facebook knof+Link
+###TODO:
+	- Check if facebook banner-link is working.
+	
+
 
 	

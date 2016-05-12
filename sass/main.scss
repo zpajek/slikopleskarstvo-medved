@@ -28,6 +28,7 @@ h6 {
     font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
 }
 
 
@@ -306,19 +307,38 @@ a {
         margin-bottom: 3em;
     }
     .storitve-text{
+        ::-moz-selection { /* Code for Firefox */
+                color: $temno_rjava; 
+                background: $light_blue;
+            }
+
+            ::selection {
+                color: $temno_rjava; 
+                background: $light_blue;
+            }
         h3{
             color:$deeper_blue;
         }
         div{
             padding-top:4em;
+
+
         }
+        p{
+            text-align: justify;
+            word-break: break-all;
+            hyphens: all;
+            word-wrap:break-word;
+
+        }
+
     }
 }
 
 
 
 .tehnike-section{
-    width: 100%;
+    width :100%;
     padding: 150px 0;
     color: white;
     background: url(../img/Tehnike/jeans/2.jpg) no-repeat center center scroll;
@@ -351,11 +371,21 @@ a {
 
 .kontakt-section{
     margin:2em 0;
+    ::-moz-selection { /* Code for Firefox */
+                color: $temno_rjava; 
+                background: $light_blue;
+            }
+
+            ::selection {
+                color: $temno_rjava; 
+                background: $light_blue;
+            }
     .kontakt-section-adress{
         font-family: "Oswald","Montserrat",sans-serif; 
         font-size: 1.5em;
         text-align: right;
         margin-top: 2.9em;
+
         }
         a{
             color:$deep_blue;
