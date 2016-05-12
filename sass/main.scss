@@ -28,6 +28,7 @@ h6 {
     font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
 }
 
 
@@ -89,7 +90,9 @@ a {
                 -webkit-transition: background .3s ease-in-out;
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
-                font-size: 1.25em;
+                font-size: 1.3em;
+                font-weight: normal;
+                
                 &:hover {
                     color: rgba(white, 0.8);
                     outline: none;
@@ -256,6 +259,7 @@ a {
     padding-top:10px;
     color:$temno_rjava;
     padding-bottom:20px;
+
     @media(max-width:768px){
         padding-bottom:40px;
     }
@@ -263,9 +267,11 @@ a {
         color: $rjava;
         line-height: 1.4;
         text-align: center;
+         font-weight: bold;
         @media(max-width:768px){
             max-width: 600px;
             margin:auto;
+
         }
         
     }
@@ -306,19 +312,45 @@ a {
         margin-bottom: 3em;
     }
     .storitve-text{
+       
+        ::-moz-selection { /* Code for Firefox */
+                color: $temno_rjava; 
+                background: $light_blue;
+            }
+
+            ::selection {
+                color: $temno_rjava; 
+                background: $light_blue;
+            }
         h3{
             color:$deeper_blue;
         }
         div{
-            padding-top:4em;
+            padding-top:2em;
+            padding: 30px;
+
         }
+        p{
+            text-align: justify;
+            letter-spacing: normal;
+            line-height: 1.5em;
+            font-weight: normal;
+            a{
+                color:$deeper_blue;
+                &:hover{
+                    color: $light_blue;
+                }
+            }
+
+        }
+
     }
 }
 
 
 
 .tehnike-section{
-    width: 100%;
+    width :100%;
     padding: 150px 0;
     color: white;
     background: url(../img/Tehnike/jeans/2.jpg) no-repeat center center scroll;
@@ -351,11 +383,21 @@ a {
 
 .kontakt-section{
     margin:2em 0;
+    ::-moz-selection { /* Code for Firefox */
+                color: $temno_rjava; 
+                background: $light_blue;
+            }
+
+            ::selection {
+                color: $temno_rjava; 
+                background: $light_blue;
+            }
     .kontakt-section-adress{
         font-family: "Oswald","Montserrat",sans-serif; 
         font-size: 1.5em;
         text-align: right;
         margin-top: 2.9em;
+
         }
         a{
             color:$deep_blue;
@@ -433,7 +475,12 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding:20px 0 0 0;
+    
+    background:url(../img/Slikopleskarstvo%20logotip%20bel.svg);
+    background-repeat:no-repeat; 
+    background-position:98%;
+    background-size:8%;
     background-color: $deeper_blue;
     p {
         margin: 0;
