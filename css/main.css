@@ -172,7 +172,7 @@ a:hover, a:focus { text-decoration: none; color: #1d9b6c; }
 
 .intro { display: table; width: 100%; height: auto; padding: 100px 0; text-align: center; color: white; background: url(../img/Home/Mavrica-17.jpg) no-repeat bottom center scroll; background-color: black; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
 .intro .intro-body { display: table-cell; vertical-align: middle; }
-.intro .intro-body .brand-heading { font-size: 3em; }
+.intro .intro-body .brand-heading { font-size: 2em; }
 .intro .intro-body .intro-text { font-size: 18px; }
 .intro .intro-body img { width: 30%; margin-bottom: 1.5em; margin-top: 100px; }
 @media (min-width: 768px) { .intro { height: 100%; padding: 0; }
@@ -236,6 +236,7 @@ ul.banner-social-buttons { margin-top: 0; }
   ul.banner-social-buttons li:last-child { margin-bottom: 0; } }
 
 footer { padding: 20px 0 0 0; background: url(../img/Slikopleskarstvo%20logotip%20bel.svg); background-repeat: no-repeat; background-position: 98%; background-size: 8%; background-color: #244551; }
+@media (min-width: 1200px) { footer { background-size: 5%; } }
 footer p { margin: 0; color: #839DA7; font-size: 0.80em; }
 footer address { font-family: "Oswald","Montserrat",sans-serif; font-size: 1.2em; color: #839DA7; }
 
