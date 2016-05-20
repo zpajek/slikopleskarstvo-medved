@@ -3,21 +3,22 @@ A website for my client
 Nothing special
 notes will be writen below by covorkers
 
-
+##POST LAUNCH ACTIVITIES	
 ##SEO:
 
-	- Meta tags
-	- Social tags
-	- Google webmaster
-	- Google analitics
-	- Robotx.txt
+	- Meta tags Done
+	- Social tags Done
+	- Google webmaster: SEO in progress
+	- Google analitics: In progress
+	- Robotx.txt Done.
+	- Add about us section
+	- 
 
 ##SOCIAL:
 
-	- Instahipsta knof+Link
-	- Facebook knof+Link
-###TODO:
-	- Check if facebook banner-link is working.
+	- Instahipsta knof+Link TODO
+	- Facebook knof+Link  TODO
+
 	
 
 
