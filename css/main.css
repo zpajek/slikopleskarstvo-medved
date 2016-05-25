@@ -199,6 +199,11 @@ a:hover, a:focus { text-decoration: none; color: #1d9b6c; }
 .content-section .popravilo-text_h2 { padding-bottom: 32.22px; }
 @media (max-width: 768px) { .content-section .popravilo-text_h2 { padding-bottom: 0; } }
 
+.o_nas_section { padding-top: 3em; width: 100%; background-color: #839DA7; color: #473223; }
+.o_nas_section p { text-align: justify; }
+.o_nas_section ::-moz-selection { /* Code for Firefox */ color: #9F8E82; background: #839DA7; }
+.o_nas_section ::selection { color: #473223; background: #839DA7; }
+
 .storitve-section { width: 100%; background-color: #FDFDF1; padding: 100px 0; color: #473223; }
 .storitve-section .storitve { margin-bottom: 3em; }
 .storitve-section .storitve-text ::-moz-selection { /* Code for Firefox */ color: #473223; background: #839DA7; }

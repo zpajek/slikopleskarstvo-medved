@@ -300,7 +300,24 @@ a {
     
    
 }
+.o_nas_section{
+    padding-top: 3em;
+    width: 100%;
+    background-color:$light_blue;
+    color:$temno_rjava;
+    p{
+    text-align: justify;
+    }
+    ::-moz-selection { /* Code for Firefox */
+                color: $brown_white; 
+                background: $light_blue;
+            }
 
+            ::selection {
+                color: $temno_rjava; 
+                background: $light_blue;
+            }
+}
 
 
 .storitve-section {
