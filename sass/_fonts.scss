@@ -1,9 +1,5 @@
 
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300&subset=latin,latin-ext);
-p{
-	font-family:"Montserrat",sans serif;
-	
-}
 
 @font-face {
     font-family: 'Montserrat';
@@ -29,3 +25,15 @@ p{
     font-style: normal;
 }
 
+@font-face{
+    font-family: "LeviReBrushed";
+    src: url("../fonts/levirebrushed-webfont.woff2"),
+         url("/fonts/levirebrushed-webfont.woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+p{
+    font-family:"Montserrat",sans serif;
+    
+}
