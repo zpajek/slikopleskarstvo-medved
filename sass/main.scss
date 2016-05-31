@@ -301,6 +301,56 @@ a {
    
 }
 
+.akcija{
+    width: 100%;
+    background-color: #315C6C;
+    padding-top: 2rem;
+    padding-bottom:5rem;
+    color:$temno_rjava;
+    p{
+        font-size: 2.5em;
+        font-family:"Oswald", "Montserrat", sans-serif,Arial;
+        text-align: center;
+        color: $ozadje2;
+    }
+     object,img{
+        max-width: 40em;
+    }
+    @media(min-width:1200px){
+        object,img{
+            max-width: 50em;
+            
+
+        }
+    }
+    @media(max-width:600px){
+        p{
+            font-size: 1.5em;
+        }
+    }
+   
+
+}
+
+
+.o_nas_section{
+    padding-top: 3em;
+    width: 100%;
+    background-color:$light_blue;
+    color:$temno_rjava;
+    p{
+    text-align: justify;
+    }
+    ::-moz-selection { /* Code for Firefox */
+                color: $brown_white; 
+                background: $light_blue;
+            }
+
+            ::selection {
+                color: $temno_rjava; 
+                background: $light_blue;
+            }
+}
 
 
 .storitve-section {
