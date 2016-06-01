@@ -164,6 +164,7 @@ a {
             width:30%;
             margin-bottom: 1.5em;
             margin-top: 100px;
+            z-index: 5;
             
         }
     }
@@ -330,6 +331,39 @@ a {
     }
    
 
+}
+.special   {
+    position:absolute;
+    z-index: 2;
+    padding: 3em 3em 5em 5em;
+    right:0%;
+    top: 10%;
+    background: url("../img/Other/background_top_sticky.png") no-repeat;
+    background-position: top right;
+    background-size:contain;
+
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 1em;
+    }
+    h1,a,p{
+        text-align: center;
+        margin:0;
+        color: #C8CDD2;
+    &:hover{
+        color: $ozadje2;
+        }
+
+    }
+    @media(max-width:600px){
+        width: 50%;
+        padding:1em 2em 2em 2em;
+        h1,p{
+           font-size:1em;
+        }
+    }
 }
 
 
