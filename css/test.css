@@ -1,6 +1,6 @@
 /*
 Error: Invalid @import: expected end of line, was ";".
-        on line 1 of C:\Users\pajek\Desktop\GIT\slikopleskarstvo-medved\sass\test.sass
+        on line 1 of C:\Users\pajek\Desktop\slikopleskarstvo-medved\sass\test.sass
 
 1: @import "compass/css3";
 2: 
@@ -10,7 +10,7 @@ Error: Invalid @import: expected end of line, was ";".
 6: }
 
 Backtrace:
-C:\Users\pajek\Desktop\GIT\slikopleskarstvo-medved\sass\test.sass:1
+C:\Users\pajek\Desktop\slikopleskarstvo-medved\sass\test.sass:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:986:in `parse_import_directive'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:788:in `parse_directive'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:635:in `parse_line'
@@ -32,4 +32,4 @@ C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid @import: expected end of line, was \";\".\A         on line 1 of C:\Users\pajek\Desktop\GIT\slikopleskarstvo-medved\sass\test.sass\A \A 1: @import \"compass/css3\";\A 2: \A 3: @font-face {\A 4:   src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/polar.otf');\A 5:   font-family: 'Polar';\A 6: }"; }
+  content: "Error: Invalid @import: expected end of line, was \";\".\A         on line 1 of C:\Users\pajek\Desktop\slikopleskarstvo-medved\sass\test.sass\A \A 1: @import \"compass/css3\";\A 2: \A 3: @font-face {\A 4:   src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/polar.otf');\A 5:   font-family: 'Polar';\A 6: }"; }

@@ -1,4 +1,3 @@
-// AUTORJA: Vid in Žan Pajek. Vse pravice pridržane.
 @import "variables";
 @import "mixins";
 @import "fonts";
@@ -92,7 +91,7 @@ a {
                 transition: background .3s ease-in-out;
                 font-size: 1.3em;
                 font-weight: normal;
-                
+
                 &:hover {
                     color: rgba(white, 0.8);
                     outline: none;
@@ -137,7 +136,8 @@ a {
     }
 }
 
-.intro {
+.intro,
+.vodic {
     display: table;
     width: 100%;
     height: auto;
@@ -150,7 +150,7 @@ a {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    .intro-body {
+    .intro-body { 
         display: table-cell;
         vertical-align: middle;
         .brand-heading {
@@ -165,8 +165,17 @@ a {
             margin-bottom: 1.5em;
             margin-top: 100px;
             z-index: 5;
-            
+
         }
+    }
+    .vodic{
+        background:url(../img/Background-Vodic.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-clip: border-box;
+        background-position:center left;
+        width:100%;
+        
     }
     @media(min-width:768px) {
         height: 100%;
@@ -274,7 +283,7 @@ a {
             margin:auto;
 
         }
-        
+
     }
     img{
         width: 50%;
@@ -287,19 +296,19 @@ a {
             width: 30%;
             margin-bottom: 0.2em;
         }
-       
+
     }
 
     .popravilo-text_h2{
         padding-bottom: 32.22px;
         @media(max-width:768px){
             padding-bottom: 0;
-            
+
         }
 
     }
-    
-   
+
+
 }
 
 .akcija{
@@ -320,7 +329,7 @@ a {
     @media(min-width:1200px){
         object,img{
             max-width: 50em;
-            
+
 
         }
     }
@@ -329,7 +338,7 @@ a {
             font-size: 1.5em;
         }
     }
-   
+
 
 }
 .special   {
@@ -376,12 +385,12 @@ a {
     text-align: justify;
     }
     ::-moz-selection { /* Code for Firefox */
-                color: $brown_white; 
+                color: $brown_white;
                 background: $light_blue;
             }
 
             ::selection {
-                color: $temno_rjava; 
+                color: $temno_rjava;
                 background: $light_blue;
             }
 }
@@ -396,14 +405,14 @@ a {
         margin-bottom: 3em;
     }
     .storitve-text{
-       
+
         ::-moz-selection { /* Code for Firefox */
-                color: $temno_rjava; 
+                color: $temno_rjava;
                 background: $light_blue;
             }
 
             ::selection {
-                color: $temno_rjava; 
+                color: $temno_rjava;
                 background: $light_blue;
             }
         h3{
@@ -438,15 +447,15 @@ a {
     padding: 150px 0;
     color: white;
     background: url(../img/Tehnike/jeans/2.jpg) no-repeat center center scroll;
-    background: 
-    /* top, transparent red */ 
+    background:
+    /* top, transparent red */
     linear-gradient(
-      rgba(0, 0, 0, 0.0), 
+      rgba(0, 0, 0, 0.0),
       rgba(1,1,1, 0.0)
     ),
     /* bottom, image */
     url(../img/Tehnike/jeans/2.jpg) no-repeat center center scroll;
-    
+
 
     fill :rgba(0, 0, 0, 0);
     -webkit-background-size: cover;
@@ -457,7 +466,7 @@ a {
         font-family:"Oswald","Montserrat",sans-serif,Arial;
         font-size: 4em;
         letter-spacing: 0.2em;
-        
+
     }
     h3{
         font-family:"Oswald","Montserrat",sans-serif,Arial;
@@ -469,16 +478,16 @@ a {
 .kontakt-section{
     margin:2em 0;
     ::-moz-selection { /* Code for Firefox */
-                color: $temno_rjava; 
+                color: $temno_rjava;
                 background: $light_blue;
             }
 
             ::selection {
-                color: $temno_rjava; 
+                color: $temno_rjava;
                 background: $light_blue;
             }
     .kontakt-section-adress{
-        font-family: "Oswald","Montserrat",sans-serif; 
+        font-family: "Oswald","Montserrat",sans-serif;
         font-size: 1.5em;
         text-align: right;
         margin-top: 2.9em;
@@ -490,7 +499,7 @@ a {
      @media(max-width:1200px) {
             .kontakt-section-adress{
                 display: none;
-                
+
             }
     }
 }
@@ -561,9 +570,9 @@ ul.banner-social-buttons {
 
 footer {
     padding:20px 0 0 0;
-    
+
     background:url(../img/Slikopleskarstvo%20logotip%20bel.svg);
-    background-repeat:no-repeat; 
+    background-repeat:no-repeat;
     background-position:98%;
     background-size:8%;
     background-color: $deeper_blue;
@@ -581,7 +590,7 @@ footer {
         color: $light_blue;
 
     }
-    
+
 }
 
 ::-moz-selection {
@@ -631,12 +640,11 @@ body {
 
 
     .barve-text{
-       
+
         padding-top: 130px;
         text-align:justify ;
         text-align-last: left;
-        
+
     }
 
 }
-
