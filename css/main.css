@@ -414,7 +414,7 @@ body {
   height: 100%;
   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: white;
-  background-color: #F8CE94; }
+  background-color: #f8cf96; }
 
 html {
   width: 100%;
@@ -444,13 +444,13 @@ p {
       line-height: 1.6; } }
 
 a {
-  color: #42DCA3;
+  color: #41dca3;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #1d9b6c; }
+    color: #1c9b6d; }
 
 .light {
   font-weight: 400; }
@@ -541,11 +541,12 @@ a {
   .intro .vodic,
   .vodic .vodic {
     background: url(../img/Background-Vodic.jpg);
+    box-shadow: inset 0 0 0 1000px transparent;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
     background-position: center left;
-    width: 100%; }
+    width: 100vw; }
   @media (min-width: 768px) {
     .intro,
     .vodic {
@@ -613,13 +614,13 @@ a {
     transform: scale(1); } }
 .content-section {
   padding-top: 10px;
-  color: #473223;
+  color: #483323;
   padding-bottom: 20px; }
   @media (max-width: 768px) {
     .content-section {
       padding-bottom: 40px; } }
   .content-section p {
-    color: #5F422F;
+    color: #60432f;
     line-height: 1.4;
     text-align: center;
     font-weight: bold; }
@@ -641,17 +642,37 @@ a {
       .content-section .popravilo-text_h2 {
         padding-bottom: 0; } }
 
+.vodic_naslov h1 {
+  font-family: Oswald,Arial,sans-serif;
+  font-size: 5em;
+  text-align: left;
+  color: #29a399; }
+
+.vodic_index ul li {
+  list-style-type: none;
+  text-align: left;
+  margin: 1em 0em; }
+  .vodic_index ul li a {
+    font-family: oswald;
+    color: white;
+    font-size: 2em; }
+    .vodic_index ul li a:hover {
+      color: #29a399;
+      webkit-transition: background .15s ease-in-out;
+      -moz-transition: background .15s ease-in-out;
+      transition: background .15s ease-in-out; }
+
 .akcija {
   width: 100%;
   background-color: #315C6C;
   padding-top: 2rem;
   padding-bottom: 5rem;
-  color: #473223; }
+  color: #483323; }
   .akcija p {
     font-size: 2.5em;
     font-family: "Oswald", "Montserrat", sans-serif,Arial;
     text-align: center;
-    color: #FDFDF1; }
+    color: #fdfdf2; }
   .akcija object, .akcija img {
     max-width: 40em; }
   @media (min-width: 1200px) {
@@ -679,7 +700,7 @@ a {
     margin: 0;
     color: #C8CDD2; }
     .special h1:hover, .special a:hover, .special p:hover {
-      color: #FDFDF1; }
+      color: #fdfdf2; }
   @media (max-width: 600px) {
     .special {
       width: 50%;
@@ -687,35 +708,68 @@ a {
       .special h1, .special p {
         font-size: 1em; } }
 
+.vodic_body {
+  background-color: white; }
+
+.vodic_main {
+  background-color: white;
+  max-width: 700px;
+  margin: auto; }
+  .vodic_main p {
+    display: block;
+    color: black;
+    margin-top: 12px;
+    font-family: "Montserrat", Georgia,Cambria;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    -webkit-font-smoothing: antialiased;
+    -apple-font-smoothing: antialiased;
+    -khtml-font-smoothing: antialiased;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px; }
+  .vodic_main h2 {
+    margin-left: -2.25px;
+    line-height: 1.15;
+    letter-spacing: -.02em; }
+  .vodic_main h3 {
+    text-align: left;
+    margin-bottom: 20px; }
+
 .o_nas_section {
   padding-top: 3em;
   width: 100%;
-  background-color: #839DA7;
-  color: #473223; }
+  background-color: #829ca6;
+  color: #483323; }
   .o_nas_section p {
     text-align: justify; }
   .o_nas_section ::-moz-selection {
     /* Code for Firefox */
-    color: #9F8E82;
-    background: #839DA7; }
+    color: #a08f83;
+    background: #829ca6; }
   .o_nas_section ::selection {
-    color: #473223;
-    background: #839DA7; }
+    color: #483323;
+    background: #829ca6; }
 
 .storitve-section {
   width: 100%;
-  background-color: #FDFDF1;
+  background-color: #fdfdf2;
   padding: 100px 0;
-  color: #473223; }
+  color: #483323; }
   .storitve-section .storitve {
     margin-bottom: 3em; }
   .storitve-section .storitve-text ::-moz-selection {
     /* Code for Firefox */
-    color: #473223;
-    background: #839DA7; }
+    color: #483323;
+    background: #829ca6; }
   .storitve-section .storitve-text ::selection {
-    color: #473223;
-    background: #839DA7; }
+    color: #483323;
+    background: #829ca6; }
   .storitve-section .storitve-text h3 {
     color: #244551; }
   .storitve-section .storitve-text div {
@@ -729,7 +783,7 @@ a {
     .storitve-section .storitve-text p a {
       color: #244551; }
       .storitve-section .storitve-text p a:hover {
-        color: #839DA7; }
+        color: #829ca6; }
 
 .tehnike-section {
   width: 100%;
@@ -754,18 +808,18 @@ a {
   margin: 2em 0; }
   .kontakt-section ::-moz-selection {
     /* Code for Firefox */
-    color: #473223;
-    background: #839DA7; }
+    color: #483323;
+    background: #829ca6; }
   .kontakt-section ::selection {
-    color: #473223;
-    background: #839DA7; }
+    color: #483323;
+    background: #829ca6; }
   .kontakt-section .kontakt-section-adress {
     font-family: "Oswald","Montserrat",sans-serif;
     font-size: 1.5em;
     text-align: right;
     margin-top: 2.9em; }
   .kontakt-section a {
-    color: #305C6C; }
+    color: #315d6d; }
   @media (max-width: 1200px) {
     .kontakt-section .kontakt-section-adress {
       display: none; } }
@@ -797,14 +851,14 @@ a {
   margin-bottom: 20px; }
 
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #41dca3;
+  color: #41dca3;
   background-color: transparent; }
   .btn-default:hover, .btn-default:focus {
-    border: 1px solid #42DCA3;
+    border: 1px solid #41dca3;
     outline: none;
     color: black;
-    background-color: #42DCA3; }
+    background-color: #41dca3; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
@@ -831,12 +885,12 @@ footer {
       background-size: 5%; } }
   footer p {
     margin: 0;
-    color: #839DA7;
+    color: #829ca6;
     font-size: 0.80em; }
   footer address {
     font-family: "Oswald","Montserrat",sans-serif;
     font-size: 1.2em;
-    color: #839DA7; }
+    color: #829ca6; }
 
 ::-moz-selection {
   text-shadow: none;
@@ -854,14 +908,11 @@ img::selection {
 img::-moz-selection {
   background: transparent; }
 
-body {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
-
 .footer-tehnike {
   padding-bottom: 0; }
 
 .tehnika-text a {
-  color: #473223; }
+  color: #483323; }
 .tehnika-text :before {
   background: rgba(255, 255, 255, 0.8); }
 
@@ -869,8 +920,8 @@ body {
   width: 100%;
   background-color: black;
   padding: 30px 0;
-  color: #473223;
-  background: #839DA7; }
+  color: #483323;
+  background: #829ca6; }
   .barve-section .barve-text {
     padding-top: 130px;
     text-align: justify;

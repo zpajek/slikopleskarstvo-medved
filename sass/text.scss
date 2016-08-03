@@ -1,0 +1,43 @@
+.vodic_body{
+	background-color:white;
+}
+.vodic_main{
+	
+	background-color:white;
+	max-width: 700px;
+	margin:auto;
+
+	p {
+    display: block;
+    color:black;
+    margin-top:12px;
+
+    font-family: "Montserrat", Georgia,Cambria;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2rem;
+	
+	text-align:left;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+
+    -webkit-font-smoothing: antialiased;
+    -apple-font-smoothing: antialiased;
+    -khtml-font-smoothing: antialiased;
+
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+	h2{
+		margin-left: -2.25px;
+		line-height: 1.15;
+		letter-spacing: -.02em;
+	}
+	h3{
+		text-align: left;
+		margin-bottom: 20px;
+
+	}
+}
