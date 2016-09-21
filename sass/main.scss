@@ -151,6 +151,7 @@ a {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+        
     .intro-body { 
         display: table-cell;
         vertical-align: middle;
@@ -169,20 +170,12 @@ a {
 
         }
     }
-    .vodic{
-         
-        background:url(../img/Background-Vodic.jpg);
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.0);
-        background-repeat:no-repeat;
-        background-size:cover;
-        background-clip: border-box;
-        background-position:center left;
-        width:100vw;
-        
-    }
+
     @media(min-width:768px) {
         height: 100%;
         padding: 0;
+
+
         .intro-body {
             .brand-heading {
                 font-size: 4em;
@@ -193,7 +186,21 @@ a {
         }
     }
 }
+.vodic{
+    
+    background:url(../img/Background-Vodic.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.0);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-clip: border-box;
+    background-position:center left;
+    width:100vh;
+    }
 
+.vodic-intro{
+    background:none;
+    padding: 0;
+}
 .btn-circle {
     width: 50px;
     height: 50px;
@@ -310,6 +317,14 @@ a {
         }
 
     }
+    ::selection {
+         background: $deep_blue; /* WebKit/Blink Browsers */
+         color: $ozadje2;
+        }
+        ::-moz-selection {
+          background: $deep_blue; /* Gecko Browsers */
+          color: $ozadje2;
+        }
 
 
 }
@@ -319,6 +334,12 @@ a {
         font-size:5em;
         text-align: left;
         color: $green_blue;
+    }
+    @media(max-width:768px){
+        h1{
+            font-size: 2.5em;
+            color:hsl(175, 60%, 60%);
+        }
     }
 }
 .vodic_index{
@@ -407,6 +428,34 @@ a {
         }
     }
 }
+
+.clanki{
+    width: 100%;
+    padding-top: 3em;
+    height: 60vh;
+    background: url("../img/Background-Vodic.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .clanki-vsebina{
+        margin:auto;
+
+    }
+    .Button{
+        background-color:hsla(25, 13%, 57%, 0);
+        border: 1px;
+        color: white;   
+        display: inline-block;   
+        }
+
+}
+
+
+
 @import "text";
 
 
@@ -538,6 +587,11 @@ a {
     }
 }
 
+.konktakt-vodic{
+    border-top:solid;
+    width: 100%;
+ }
+
 #map {
     width: 100%;
     height: 200px;
@@ -562,26 +616,28 @@ a {
 .btn {
     text-transform: uppercase;
     font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.2em;
+    font-weight: 800;
+    letter-spacing: 0.1em;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    border-radius: 0;
+    border-radius: 2px;
     margin-bottom: 20px;
 
 }
 
 .btn-default {
-    border: 1px solid $primary;
-    color: $primary;
+    border: 2px solid $ozadje2;
+    padding: 1.5em 3em;
+    color: $ozadje2;
+    font-size: 2em;
     background-color: transparent;
     &:hover,
     &:focus {
-        border: 1px solid $primary;
+        border: 2px solid $ozadje2;
         outline: none;
         color: black;
-        background-color: $primary;
+        background-color: $ozadje2;
     }
 }
 
